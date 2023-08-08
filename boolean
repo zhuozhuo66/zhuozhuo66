@@ -1,0 +1,13 @@
+public void setHasLoggedIn(boolean param1) { 
+		/**@todo:Implement this com.sun.content.server.service.security.User method*/ 
+		throw new java.lang.UnsupportedOperationException("Method setAttribute() not yet implemented."); 
+    } 
+	public boolean hasLoggedIn() { 
+		/**@todo:Implement this com.sun.content.server.service.security.User method*/ 
+		throw new java.lang.UnsupportedOperationException("Method isConfirmed() not yet implemented."); 
+    } 
+ 
+    public void setAttribute(String param1, Object parm2) { 
+        /**@todo:Implement this com.sun.content.server.service.security.User method*/ 
+        throw new java.lang.UnsupportedOperationException("Method setAttribute() not yet implemented."); 
+    } 
