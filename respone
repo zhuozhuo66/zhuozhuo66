@@ -1,0 +1,18 @@
+import requests
+respone=requests.get('http://www.360buy.com')
+
+print(respone.text)   
+print(respone.content) 
+
+print(respone.status_code) 
+print(respone.headers)   
+print(respone.cookies)    
+print(respone.cookies.get_dict()) 
+print(respone.cookies.items()) # key和value
+
+print(respone.url)        
+print(respone.history)     
+
+print(respone.encoding) 
+
+response.iter_content() 
