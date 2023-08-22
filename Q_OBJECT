@@ -1,0 +1,24 @@
+son_window = new QWidget();
+son_window->setStyleSheet("QWidget {background-image:url(background_image.jpg)}");
+son_window->show();
+#pragma once
+ 
+#include <QWidget>
+#include "ui_gifwindow.h"
+#include <QLabel>
+#include <QMovie>
+ 
+class GifWindow : public QWidget
+{
+	Q_OBJECT
+ 
+public:
+	GifWindow(QWidget *parent = Q_NULLPTR);
+	~GifWindow();
+private:
+	Ui::GifWindow* ui;
+	// gif label
+	QLabel* gif_label;
+	// QMovie指
+	QMovie* movie;
+};
